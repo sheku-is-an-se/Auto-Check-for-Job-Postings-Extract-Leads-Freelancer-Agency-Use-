@@ -1,0 +1,1 @@
+# 🔐 Hash job URLs or content
