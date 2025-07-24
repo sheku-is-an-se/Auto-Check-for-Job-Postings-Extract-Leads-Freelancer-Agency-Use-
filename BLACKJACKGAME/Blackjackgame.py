@@ -10,17 +10,17 @@ values = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8,
 Casino_chips = {"Black":100, "Green": 25, "Red":5, "White":1}
 '''
 Creating a Card Class with outside variables¶
-Here we will use some outside variables that we know don't change regardless of the situation, such as a deck of cards. Regardless of what round,match, or game we're playing, we'll still need the same deck of cards
+Here we will use some outside variables that we know don't change regardless of the situation, such as a deck of cards. 
 
 '''
 
 '''
 Methods:(DECK CLASS)
-__init__(self): The constructor method to initialize the deck. This method should create all 52 cards and add them to the cards attribute.
-shuffle(self): A method to shuffle the cards in the deck randomly.
-deal_card(self): A method to remove and return the top card from the deck.
-cards_left(self): A method to return the number of cards remaining in the deck.
-__str__(self): A method to provide a string representation of the deck (optional).
+__init__(self): The __init__ method to create the deck. The function needs to create all 52 cards and put them into the cards attribute.
+shuffle(self): A function of randomly rearranging the deck cards.
+deal_card(self): A function to discard and return the top card on the deck.
+cards_left(self): A function to return how many cards are left in the deck.
+__str__(self): An optional method to offer a string description of the deck.
 '''
 class Card:
     
