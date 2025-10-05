@@ -1,1 +1,1 @@
-# 🧠 Filters job by tags, title, or description
+#Filters job by tags, title, or description
